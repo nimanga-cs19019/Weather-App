@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poetsen+One&display=swap');
+html{
+    height: 100%;
+}
+body{
+    background-image: url('th (1).jpeg');
+    background-repeat: no-repeat;
+    padding: 1rem 5rem;
+    background-size:cover;
+
+}
+.head{
+    display: flex;
+    /*separate words*/
+    justify-content: space-between;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.head h1{
+    color: rgb(75, 75, 30);
+}
+.form-control{
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(232, 232, 223);
+}
+
+#search{
+    border-radius: 15px;
+    background-color: rgb(165, 165, 99);
+    border: none;
+}
+.weather{
+    text-align: center;
+    color:black;
+}
+.weather img {
+    width: 120px;
+    height:120px
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+    grid-column-gap: 25px;
+    align-items: center;
+}
+.next{
+    font-weight: bold;
+    color: gold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#city
+{
+    font-size: 30px;
+}
+#temperature{
+    font-size: 50px;
+    margin: 0;
+}
+.next
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(0,0,0,0.4);
+    transition: .5s ease;
+   
+
+}
+.next:hover  {
+   
+   color: black;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background: none;
+}
+.templist
+{
+
+    flex-direction: column;
+    padding: 1rem;
+   
+}
+.next p{
+    margin: 3px 0;
+}
+.cast-header
+{
+    color: black;
+    background-color: yellow;
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 15px;
+}
+.weekF{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+   
+
+   
+
+}
+.dayF{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: .5s ease;
+    margin-right: 10px;
+    background-color: rgba(234, 235, 225, 0.4);
+    
+}
+.dayF:hover  {
+   
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: none;
+}
+
+
+
+
